@@ -85,3 +85,6 @@ ALTER TABLE table_name ...;
 ### <span style="color:purple">有用資源</span>
 - MySQL Databse Server (https://dev.mysql.com/downloads/mysql)
 - MySQL WorkBench (https://dev.mysql.com/downloads/workbench)
+- SQL: Naming Conventions [SQLShack](https://www.sqlshack.com/learn-sql-naming-conventions/), [Github repo](https://github.com/RootSoft/Database-Naming-Convention)
+- Database diagrams tool - [drawSQL](https://drawsql.app/)
+- Markdown Syntax [Markdown Guide](https://www.markdownguide.org/basic-syntax/)
