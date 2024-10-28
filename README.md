@@ -92,6 +92,13 @@ ALTER TABLE table_name ...;
 ### 4th Normal Form
 1. 符合 BCNF
 2. 不可以在 Row 裡面有一對多關係
+## 課堂習做
+### 1.電商網站 Schema 設計
+![Schema Diagram](/exercises/001/drawSQL-image.png)
+> [!NOTE]
+> [Original link of diragram](https://drawsql.app/teams/seed-3/diagrams/ecommerce-mock) / [SQL Statement](/exercises/001/drawSQL-mysql.sql)
+
+
 
 # <span style="color:purple">課外有用資源</span>
 - MySQL Databse Server (https://dev.mysql.com/downloads/mysql)
