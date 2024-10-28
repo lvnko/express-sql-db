@@ -4,8 +4,8 @@ CREATE TABLE `district`(
     `county_city_id` INT NOT NULL
 );
 CREATE TABLE `country`(
-    `id` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    `label` BIGINT NOT NULL
+    `id` INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `label` INT NOT NULL
 );
 CREATE TABLE `attribute`(
     `id` INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -62,9 +62,9 @@ CREATE TABLE `address`(
     `county_city_id` INT NOT NULL,
     `country_id` INT NOT NULL,
     `type_id` INT NOT NULL,
-    `is_default` BINARY(16) NOT NULL,
-    `has_delivery_history` BINARY(16) NOT NULL,
-    `archived` BINARY(16) NOT NULL
+    `is_default` BOOLEAN NOT NULL,
+    `has_delivery_history` BOOLEAN NOT NULL,
+    `archived` BOOLEAN NOT NULL
 );
 CREATE TABLE `customer`(
     `id` INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
