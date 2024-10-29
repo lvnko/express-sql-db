@@ -109,3 +109,4 @@ ALTER TABLE table_name ...;
 - Schema 設計學習例子
     - eCommerce App [YouTube](https://www.youtube.com/watch?v=1HamqOuv2Cw), [Diagram](https://dbshostedfiles.s3.us-west-2.amazonaws.com/dsa/erd_ecommerce_database.png)
     - Food Delivery App [YouTube](https://www.youtube.com/watch?v=vf_9sUqhjwM&t=333s), [Diagram](https://dbshostedfiles.s3.us-west-2.amazonaws.com/dbs/erd_food_delivery.png)
+- MySQL Client running no Node.js Express [mysqljs/mysql](https://github.com/mysqljs/mysql)

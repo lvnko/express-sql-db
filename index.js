@@ -1,32 +1,32 @@
 import express from "express";
-import fs from "fs";
+import dotenv from "dotenv";
+import mysql from "mysql";
+
+dotenv.config();
 
 const app = express();
-const port = 3000;
-// let count = {};
-
-app.get('/', async (req, res) => {
-    
-    const filePath = './data.txt';
-    const visitorName = req.query.name;
-    let count = JSON.parse(fs.readFileSync(filePath).toString());
-    
-    if (!count[visitorName]) count[visitorName] = 0;
-    
-    count[visitorName]++;
-
-    const newCount = JSON.stringify(count, null, 4);
-    fs.writeFileSync(
-        filePath,
-        newCount,
-        (err) => {
-            if (err) console.log(`Error on writing at ${filePath}: `, err);
-        }
-    );
-    
-    res.send(`Hello ${visitorName}, visit count: ${count[visitorName]}`);
+const connection = mysql.createConnection({
+    host: process.env.DB_HOST || 'localhost',
+    user: process.env.DB_USER || 'root',
+    password: process.env.DB_PASSWORD || 'password',
+    database: process.env.DB_NAME || 'TodoList',
+});
+connection.connect((err) => {
+    if (err) {
+      console.error('Database connection failed:', err.stack);
+      return;
+    }
+    console.log('Connected to database');
 });
 
-app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}`)
+
+const port = process.env.PORT || 3000;
+
+app.get('/', async (req, res )=> {
+    res.write(`Hello World!!`);
+    res.end();
+});
+
+app.listen(port, ()=>{
+    console.log(`Example app listening at http://localhost:${port}`);
 });
