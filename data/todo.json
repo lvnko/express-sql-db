@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Buy Ingridient for Dinner",
+        "description": "Buy 4 fishes, vegetable and meat from the sunset market.",
+        "UserId": 1
+    },
+    {
+        "id": 2,
+        "title": "Make Next Gathering Appointment",
+        "description": "Make an appointment with Kaity and Siu for our gathering.",
+        "UserId": 1
+    },
+    {
+        "id": 3,
+        "title": "Visit Stationery Store",
+        "description": "Go to stationery store and buy some pencils.",
+        "UserId": 1
+    },
+    {
+        "id": 4,
+        "title": "Complete project proposal",
+        "description": "Verify with May and complete the items in project scope.",
+        "UserId": 7
+    },
+    {
+        "id": 5,
+        "title": "Plan Birthday Surprise for Sarah",
+        "description": "Order cake from \"Sweet Surrender\" bakery (chocolate with raspberry filling) by Nov 10th.",
+        "UserId": 4
+    },
+    {
+        "id": 6,
+        "title": "Winterize the garden",
+        "description": "Bring potted plants inside, cover delicate shrubs, mulch flower beds and cover outdoor faucets.",
+        "UserId": 10
+    },
+    {
+        "id": 7,
+        "title": "Bath & Relaxation",
+        "description": "Take a long bath with Epsom salts.",
+        "UserId": 10
+    }
+]

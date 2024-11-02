@@ -98,7 +98,7 @@ ALTER TABLE table_name ...;
 > [!NOTE]
 > [圖表原檔 (Original link of diragram)](https://drawsql.app/teams/seed-3/diagrams/ecommerce-mock) / [SQL Statement 轉譯](/exercises/001/drawSQL-mysql.sql)
 ### 2. 在 express 上實作 sequelize 與 MySQL 的串接
-
+![API Design](/exercises/002/api-design.png)
 
 
 # <span style="color:purple">課外有用資源</span>

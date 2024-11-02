@@ -1,15 +1,16 @@
 import express from "express";
-import dotenv from "dotenv";
 import Router from "./routes/index.js";
+import Sqlize, { Auth } from "./config/sequelize.js";
 import { User, Todo } from "./models/index.js";
-
-dotenv.config();
+import InitData from "./data/index.js";
 
 const app = express();
 const port = process.env.PORT || 3000;
 
-await Todo.sync();
+await Auth();
 await User.sync();
+await Todo.sync();
+await InitData();
 
 // parse req.body
 app.use(express.json());

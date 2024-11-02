@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "given_name": "John",
+        "family_name": "Stone",
+        "gender": "M",
+        "email": "john.stone@lorem.com"
+    },
+    {
+        "id": 4,
+        "given_name": "Peter",
+        "family_name": "Stanbridge",
+        "gender": "M",
+        "email": "peter.stanbridge@ipsum.com"
+    },
+    {
+        "id": 7,
+        "given_name": "Nguta",
+        "family_name": "Ithya",
+        "gender": "F",
+        "email": "nguta.ithya@lorem.com"
+    },
+    {
+        "id": 10,
+        "given_name": "Trevor",
+        "family_name": "Virtue",
+        "gender": "M",
+        "email": "trevor.virtue@dolor.com"
+    }
+]

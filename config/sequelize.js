@@ -1,4 +1,3 @@
-
 import dotenv from "dotenv";
 import { Sequelize } from "sequelize";
 
@@ -14,11 +13,14 @@ const Sqlize = new Sequelize(
     }
 );
 
-try {
-    await sqlize.authenticate();
-    console.log("MySQL server connection succeeded!");
-} catch(err) {
-    console.error("MySQL server connection failed!");
+export const Auth = async () => {
+
+    try {
+        await Sqlize.authenticate();
+        console.log("MySQL server connection succeeded!");
+    } catch(err) {
+        console.error("MySQL server connection failed!");
+    }
 }
 
 export default Sqlize;
