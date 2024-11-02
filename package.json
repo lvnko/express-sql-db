@@ -2,7 +2,7 @@
   "name": "express-sql-db",
   "version": "1.0.0",
   "description": "Week #005 & Week #006",
-  "main": "index.js",
+  "main": "./index.js",
   "type": "module",
   "scripts": {
     "start": "node index.js",
@@ -14,6 +14,8 @@
   "dependencies": {
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
-    "mysql": "github:mysqljs/mysql"
+    "mysql": "github:mysqljs/mysql",
+    "mysql2": "^3.11.3",
+    "sequelize": "^6.37.5"
   }
 }

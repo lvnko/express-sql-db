@@ -93,10 +93,11 @@ ALTER TABLE table_name ...;
 1. 符合 BCNF
 2. 不可以在 Row 裡面有一對多關係
 ## 課堂習做
-### 1.電商網站 Schema 設計
+### 1. 電商網站 Schema 設計
 ![Schema Diagram](/exercises/001/drawSQL-image.png)
 > [!NOTE]
 > [圖表原檔 (Original link of diragram)](https://drawsql.app/teams/seed-3/diagrams/ecommerce-mock) / [SQL Statement 轉譯](/exercises/001/drawSQL-mysql.sql)
+### 2. 在 express 上實作 sequelize 與 MySQL 的串接
 
 
 
@@ -110,3 +111,5 @@ ALTER TABLE table_name ...;
     - eCommerce App [YouTube](https://www.youtube.com/watch?v=1HamqOuv2Cw), [Diagram](https://dbshostedfiles.s3.us-west-2.amazonaws.com/dsa/erd_ecommerce_database.png)
     - Food Delivery App [YouTube](https://www.youtube.com/watch?v=vf_9sUqhjwM&t=333s), [Diagram](https://dbshostedfiles.s3.us-west-2.amazonaws.com/dbs/erd_food_delivery.png)
 - MySQL Client running no Node.js Express [mysqljs/mysql](https://github.com/mysqljs/mysql)
+- Sequelize
+	- Tutorial about Foreign Keys and Table Joins ([LINK](https://www.youtube.com/watch?v=IuTWT1ChacE))
