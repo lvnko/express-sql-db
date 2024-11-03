@@ -92,7 +92,7 @@ ALTER TABLE table_name ...;
 ### 4th Normal Form
 1. 符合 BCNF
 2. 不可以在 Row 裡面有一對多關係
-## 課堂習做
+## 課堂習作
 ### 1. 電商網站 Schema 設計
 ![Schema Diagram](/exercises/001/drawSQL-image.png)
 > [!NOTE]
