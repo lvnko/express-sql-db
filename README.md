@@ -1,7 +1,7 @@
 # Week #005 + Week #006
 ## 在 express 上實作 sequelize 與 MySQL 的串接
 ### 專案啟動步驟
-1. 下載並安裝 MySQL 伺服器在本地電腦，建議版本為 v8.0
+1. 下載並安裝 MySQL 伺服器在本地電腦，建議版本為 ``v8.0.*``
 2. 啟動本地 MySQL 伺服器
 3. 運用 MySQL Client (e.g. MySQL Workbench) 在 MySQL 伺服器上創建數據庫 ``TodoList``：
 	```sql
@@ -23,7 +23,7 @@
 	```node
 	npm run dev
 	```
-7. 啟動成功後便可以 API Client 訪問 API，相關功能可參考 [ [功能目錄](./NOTES.md#2-在-express-上實作-sequelize-與-mysql-的串接) ]
+7. 啟動成功後便可以 API Client 訪問 ``http://localhost:{{PORT}}``，相關 API 功能可參考 [ [功能目錄](./NOTES.md#2-在-express-上實作-sequelize-與-mysql-的串接) ]
 ### 開發環境依賴
 - MySQL v8.0
 - Node.js v14.21.1
