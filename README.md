@@ -18,6 +18,6 @@
 ## 專案筆記
 1. 課程學習筆記 [ [Week #005](./NOTES.md) ] [ [Week #006](./NOTES.md#week-006) ]
 2. 課堂習作
-	2. 1. 電商網站 Schema 設計 [ [<img width="18" hieght="18" style="vertical-align: middle;" src="https://cdn-icons-png.flaticon.com/512/282/282100.png"/> 連結](./NOTES.md#課堂習作) ]
-	2. 2. 在 express 上實作 sequelize 與 MySQL 的串接 (本專案) [ [<img width="18" hieght="18" style="vertical-align: middle;" src="https://cdn-icons-png.flaticon.com/512/282/282100.png"/> API 設計](./NOTES.md#2-在-express-上實作-sequelize-與-mysql-的串接) ]
+	- 電商網站 Schema 設計 [ [<img width="18" hieght="18" style="vertical-align: middle;" src="https://cdn-icons-png.flaticon.com/512/282/282100.png"/> 連結](./NOTES.md#課堂習作) ]
+	- 在 express 上實作 sequelize 與 MySQL 的串接 (本專案) [ [<img width="18" hieght="18" style="vertical-align: middle;" src="https://cdn-icons-png.flaticon.com/512/282/282100.png"/> API 設計](./NOTES.md#2-在-express-上實作-sequelize-與-mysql-的串接) ]
 3. 課外有用資源 [ [<img width="18" hieght="18" style="vertical-align: middle;" src="https://cdn-icons-png.flaticon.com/512/282/282100.png"/> 連結](./NOTES.md#課外有用資源) ]
