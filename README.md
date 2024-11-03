@@ -23,7 +23,7 @@
 	```node
 	npm run dev
 	```
-7. 啟動成功後便可以 API Client 訪問 ``http://localhost:{{PORT}}``，相關 API 功能可參考 [ [功能目錄](./NOTES.md#2-在-express-上實作-sequelize-與-mysql-的串接) ]
+7. 啟動成功後便可以 API Client 訪問 ``http://localhost:{{PORT}}``，相關 API 功能可參考 [ [功能目錄](./blob/main/exercises/002/api-design.png) ]
 ### 開發環境依賴
 - MySQL v8.0
 - Node.js v14.21.1
