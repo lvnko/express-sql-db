@@ -7,7 +7,7 @@
 	```sql
 	CREATE DATABASE `TodoList`;
 	```
-4. 若你使用的 MySQL 伺服器設定與以下預設值不同，請在專案根目錄創建一個 ``.env`` 檔案，並換上正確的設定值：
+4. 下載本專案 repo 至本地，若你使用的 MySQL 伺服器設定與以下預設值不同，請在專案根目錄創建一個 ``.env`` 檔案，並換上正確的設定值：
 	```env
 	PORT=3000
 	DB_HOST=localhost
